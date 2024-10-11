@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Selection</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h2>---------Bundle & Save---------</h2>
+    
+    <!-- 1 Pair Option -->
+    <div class="bundle-option" id="bundle1" onclick="selectBundle(1, 195, 50)">
+        <h4>1 Pair</h4>
+        <p class="price">DKK 195.00</p>
+        <p class="most-populars">50% OFF</p>
+        <div id="options1" style="display:none;">
+          <select name="size1">Size
+              <option value="S">S</option>
+              <option value="M">M</option>
+              <option value="L">L</option>
+          </select>
+          <select name="color1">
+              <option value="red">Red</option>
+              <option value="blue">Blue</option>
+          </select>
+          <select name="size1">
+            <option value="S">S</option>
+            <option value="M">M</option>
+            <option value="L">L</option>
+        </select>
+        <select name="color1">
+            <option value="red">Red</option>
+            <option value="blue">Blue</option>
+        </select>
+      </div>
+    </div>
+
+    <!-- 2 Pair Option -->
+    <div class="bundle-option" id="bundle2" onclick="selectBundle(2, 345, 40)">
+        <h4>2 Pair</h4>
+        <p class="price">DKK 345.00</p>
+        <p class="most-popular">Most Popular<br/><span>40% OFF</span></p>
+        <div id="options2" style="display:none;">
+            <select name="size1">Size
+                <option value="S">S</option>
+                <option value="M">M</option>
+                <option value="L">L</option>
+            </select>
+            <select name="color1">
+                <option value="red">Red</option>
+                <option value="blue">Blue</option>
+            </select>
+            <select name="size1">
+              <option value="S">S</option>
+              <option value="M">M</option>
+              <option value="L">L</option>
+          </select>
+          <select name="color1">
+              <option value="red">Red</option>
+              <option value="blue">Blue</option>
+          </select>
+        </div>
+    </div>
+
+    <!-- 3 Pair Option -->
+    <div class="bundle-option" id="bundle3" onclick="selectBundle(3, 528, 60)">
+        <h4>3 Pair</h4>
+        <p class="price">DKK 528.00</p>
+        <p class="most-populars">60% OFF</p>
+        <div id="options3" style="display:none;">
+            <select name="size2">
+                <option value="S">S</option>
+                <option value="M">M</option>
+                <option value="L">L</option>
+            </select>
+            <select name="color2">
+                <option value="green">Green</option>
+                <option value="yellow">Yellow</option>
+            </select>
+            <select name="size2">
+              <option value="S">S</option>
+              <option value="M">M</option>
+              <option value="L">L</option>
+          </select>
+          <select name="color2">
+              <option value="green">Green</option>
+              <option value="yellow">Yellow</option>
+          </select>
+        </div>
+    </div>
+
+    <!-- Total and Add to Cart -->
+    <p class="total">Total: DKK <span id="totalPrice">0.00</span></p>
+    <button class="add-to-cart">+ Add to Cart</button>
+</div>
+
+<script src="script.js">
+   
+</script>
+
+</body>
+</html>
